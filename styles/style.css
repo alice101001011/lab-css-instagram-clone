@@ -7,4 +7,304 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background: linear-gradient(180deg, #517ea3 20%, #316088 40%, #ffffff 40%);
+}
+
+h1 {
+  font-size: 2.1rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+  color: #06365f;
+  padding-bottom: 0.6rem;
+}
+
+p {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+main {
+  height: 80vh;
+  padding: 80px 160px 0px 140px;
+  margin-bottom: 90px;
+  display: flex;
+  flex-direction: row;
+  gap: 65px;
+}
+
+#left,
+#right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#left {
+  width: 40%;
+  background-image: url(../images/phones.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 50% 100%;
+}
+
+#right {
+  width: 60%;
+}
+
+#left img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  object-position: left;
+}
+
+.navi {
+  margin-bottom: 30px;
+  padding: 0 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.brand {
+  width: 65%;
+  height: auto;
+}
+
+.brand img {
+  width: 100%;
+}
+
+.login {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+button {
+  height: 55px;
+  background: linear-gradient(180deg, #6892b2 50%, #42749c 100%);
+  border: 1px solid #285b85;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25), inset 0px 2px 1px 1px #799ebc;
+  border-radius: 4px;
+  color: white;
+  padding: 0px 15px;
+  text-align: rig;
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: bold;
+  align-self: center;
+  display: flex;
+}
+
+button img {
+  width: 32px;
+  padding-right: 10px;
+  align-self: center;
+}
+
+button span {
+  align-self: center;
+}
+
+.infotext {
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: 100%;
+  padding: 20px 60px 0px 60px;
+  align-self: center;
+}
+
+.badges {
+  height: 65px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 28px;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+footer a {
+  font-size: 0.9rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #06365f;
+}
+
+@media only screen and (min-width: 1220px) and (max-width: 1320px) {
+
+  body {
+    background: linear-gradient(180deg, #517ea3 10%, #316088 30%, #ffffff 30%);
+  }
+
+  h1 {
+    font-size: 2.1rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: #06365f;
+    padding-bottom: 0.6rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+
+  main {
+    height: 80vh;
+    padding: 5% 10%;
+    margin-bottom: 90px;
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+  }
+
+  #left,
+  #right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+  }
+
+  
+
+  
+
+  .navi {
+    margin-bottom: 30px;
+    padding: 0 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+  }
+
+  .brand {
+    width: 65%;
+    height: auto;
+  }
+
+  .brand img {
+    width: 100%;
+  }
+
+  .login {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+
+  button {
+    height: 55px;
+    background: linear-gradient(180deg, #6892b2 50%, #42749c 100%);
+    border: 1px solid #285b85;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25), inset 0px 2px 1px 1px #799ebc;
+    border-radius: 4px;
+    color: white;
+    padding: 0px 15px;
+    text-align: rig;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: bold;
+    align-self: center;
+    display: flex;
+  }
+
+  button img {
+    width: 32px;
+    padding-right: 10px;
+    align-self: center;
+  }
+
+  button span {
+    align-self: center;
+  }
+
+  .infotext {
+    background-image: url(../images/frame.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: 100%;
+    padding: 20px 60px 0px 60px;
+    align-self: center;
+  }
+
+  .badges {
+    height: 65px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 28px;
+  }
+
+  footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  footer a {
+    font-size: 0.9rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #06365f;
+  }
+}
+
+@media only screen and (min-width: 980px) and (max-width: 1219px) {
+
+  body {
+    background: linear-gradient(180deg, #517ea3 10%, #316088 30%, #ffffff 30%);
+  }
+
+  main {
+    height: 80vh;
+    padding: 5% 5%;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+  }
+
+  #left {
+    width: 50%;
+    background-image: url(../images/phones.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50% 100%;
+  }
+
+#right {
+  width: 50%;
+}
+
+
+.infotext {
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: auto;
+  padding: 20px 60px 0px 50px;
+  align-self: center;
+  margin-left: 20px
+}
+
+
+
 }
